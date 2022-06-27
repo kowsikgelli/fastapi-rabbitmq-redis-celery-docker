@@ -741,3 +741,10 @@ celery.exceptions.ImproperlyConfigured: You need to install the redis library in
 [2022-06-27 11:12:47,711: INFO/MainProcess] Events of group {task} enabled by remote.
 [2022-06-27 11:13:09,412: INFO/MainProcess] Received task: create_task[b4b7ad44-8bad-4e8b-ada7-55ab94e311b8]  
 [2022-06-27 11:13:09,450: INFO/ForkPoolWorker-3] Task create_task[b4b7ad44-8bad-4e8b-ada7-55ab94e311b8] succeeded in 0.0345954829999755s: True
+[2022-06-27 11:34:20,071: INFO/MainProcess] Connected to amqp://guest:**@rabbitmq:5672//
+[2022-06-27 11:34:20,083: INFO/MainProcess] mingle: searching for neighbors
+[2022-06-27 11:34:21,117: INFO/MainProcess] mingle: all alone
+[2022-06-27 11:34:21,142: INFO/MainProcess] celery@d617dfee3deb ready.
+[2022-06-27 11:34:25,371: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-06-27 11:36:13,914: INFO/MainProcess] Received task: create_task[e7b73d2b-09d5-48c0-81d3-fcb033222e7c]  
+[2022-06-27 11:36:13,959: INFO/ForkPoolWorker-3] Task create_task[e7b73d2b-09d5-48c0-81d3-fcb033222e7c] succeeded in 0.03600065299997368s: True
