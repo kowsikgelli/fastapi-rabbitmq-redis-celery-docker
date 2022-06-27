@@ -19,7 +19,7 @@ Open your browser to [http://localhost:8004](http://localhost:8004) to view the 
 Trigger a new task:
 
 ```sh
-$ curl http://localhost:8004/tasks -H "Content-Type: application/json" --data '{"type": 0}'
+$ curl http://localhost:8004/tasks -H "Content-Type: application/json" --data '{"filename": "file.txt"}'
 ```
 
 Check the status:
